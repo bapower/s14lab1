@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    bestClassEver = 'Best Class Ever'
+    bestClassEver = 'Ross'
     return render_template('index.html', bCE=bestClassEver)
 
 
